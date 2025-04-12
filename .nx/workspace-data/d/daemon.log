@@ -1,0 +1,12 @@
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.408Z - Started listening on: /var/folders/gy/plnlhrrs1z5cz0ywp68k9fdc0000gn/T/e75997a9b5912ad41903/d.sock
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.410Z - [WATCHER]: Subscribed to changes within: /Users/BauhofT/Development/Portfolio/Portfolio-Website (native)
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.414Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.415Z - Established a connection. Number of open connections: 2
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.416Z - Closed a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.416Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.416Z - Done responding to the client Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.416Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.418Z - [WATCHER]: Stopping the watcher for /Users/BauhofT/Development/Portfolio/Portfolio-Website (sources)
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.418Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.418Z - [WATCHER]: Stopping the watcher for /Users/BauhofT/Development/Portfolio/Portfolio-Website (outputs)
+[NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.418Z - Server stopped because: "Request to shutdown"
