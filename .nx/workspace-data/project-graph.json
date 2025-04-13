@@ -68,7 +68,7 @@
               "script": "copy-404"
             },
             "metadata": {
-              "scriptContent": "cp dist/portfolio-website/browser/index.html dist/portfolio-website/browser/404.html",
+              "scriptContent": "cp dist/portfolio-website/browser/index.csr.html dist//portfolio-website/browser/404.html && cp src/assets/.nojekyll dist/portfolio-website/browser/.nojekyll",
               "runCommand": "npm run copy-404"
             },
             "configurations": {},
@@ -80,7 +80,7 @@
               "script": "deploy"
             },
             "metadata": {
-              "scriptContent": "nx build --configuration=production && npm run copy-404 && npx angular-cli-ghpages --dir=dist/portfolio-website/browser",
+              "scriptContent": "ng build --configuration=production --base-href=/Portfolio-Website/ && npm run copy-404 && npx angular-cli-ghpages --dir=dist/portfolio-website/browser --no-silent",
               "runCommand": "npm run deploy"
             },
             "configurations": {},
@@ -101,7 +101,7 @@
           "build": {
             "executor": "@angular-devkit/build-angular:application",
             "options": {
-              "outputPath": "dist/portfolio-website",
+              "outputPath": "dist/portfolio-website/browser",
               "index": "src/index.html",
               "browser": "src/main.ts",
               "polyfills": [
@@ -28929,5 +28929,5 @@
       "name": "MultipleProjectsWithSameNameError"
     }
   ],
-  "computedAt": 1744535881454
+  "computedAt": 1744536457377
 }

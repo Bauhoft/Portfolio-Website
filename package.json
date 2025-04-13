@@ -7,8 +7,8 @@
     "build": "nx build",
     "watch": "nx build --watch --configuration development",
     "test": "nx test",
-    "copy-404": "cp dist/portfolio-website/browser/index.html dist/portfolio-website/browser/404.html",
-    "deploy": "nx build --configuration=production && npm run copy-404 && npx angular-cli-ghpages --dir=dist/portfolio-website/browser",
+    "copy-404": "cp dist/portfolio-website/browser/index.csr.html dist//portfolio-website/browser/404.html && cp src/assets/.nojekyll dist/portfolio-website/browser/.nojekyll",
+    "deploy": "ng build --configuration=production --base-href=/Portfolio-Website/ && npm run copy-404 && npx angular-cli-ghpages --dir=dist/portfolio-website/browser --no-silent",
     "serve:ssr:portfolioWebsite": "node dist/portfolio-website/server/server.mjs"
   },
   "private": true,

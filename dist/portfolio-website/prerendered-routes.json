@@ -1,6 +1,6 @@
 {
   "routes": {
-    "/https:/github.com/Bauhoft/Portfolio-Website": {},
-    "/https:/github.com/Bauhoft/Portfolio-Website/home": {}
+    "/Portfolio-Website": {},
+    "/Portfolio-Website/home": {}
   }
 }

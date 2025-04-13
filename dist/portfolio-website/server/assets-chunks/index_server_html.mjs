@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>PortfolioWebsite</title>
-  <base href="/https://github.com/Bauhoft/Portfolio-Website/">
+  <base href="/Portfolio-Website/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-VK2QMLJW.css"></head>

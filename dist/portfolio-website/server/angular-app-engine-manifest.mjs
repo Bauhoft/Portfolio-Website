@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/https://github.com/Bauhoft/Portfolio-Website',
+  basePath: '/Portfolio-Website',
   supportedLocales: {
   "en-US": ""
 },
