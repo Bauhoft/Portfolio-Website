@@ -56,6 +56,10 @@
       "angular.json",
       "nx-angular-json-plugin"
     ],
+    "targets.build.options.baseHref": [
+      "angular.json",
+      "nx-angular-json-plugin"
+    ],
     "targets.build.options.outputPath": [
       "angular.json",
       "nx-angular-json-plugin"
@@ -208,6 +212,14 @@
       "angular.json",
       "nx-angular-json-plugin"
     ],
+    "targets.deploy": [
+      "angular.json",
+      "nx-angular-json-plugin"
+    ],
+    "targets.deploy.executor": [
+      "angular.json",
+      "nx-angular-json-plugin"
+    ],
     "targets.build.cache": [
       "nx.json",
       "nx/target-defaults"
@@ -275,6 +287,14 @@
       "nx/core/package-json"
     ],
     "metadata.targetGroups.NPM Scripts.3": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
       "package.json",
       "nx/core/package-json"
     ],
@@ -375,6 +395,62 @@
       "nx/core/package-json"
     ],
     "targets.watch.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-404": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-404.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-404.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-404.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-404.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-404.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-404.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.metadata.runCommand": [
       "package.json",
       "nx/core/package-json"
     ],

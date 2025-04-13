@@ -10,3 +10,39 @@
 [NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.418Z - Closed a connection. Number of open connections: 0
 [NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.418Z - [WATCHER]: Stopping the watcher for /Users/BauhofT/Development/Portfolio/Portfolio-Website (outputs)
 [NX v20.7.1 Daemon Server] - 2025-04-12T12:44:30.418Z - Server stopped because: "Request to shutdown"
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.066Z - Started listening on: /var/folders/gy/plnlhrrs1z5cz0ywp68k9fdc0000gn/T/e75997a9b5912ad41903/d.sock
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.073Z - [WATCHER]: Subscribed to changes within: /Users/BauhofT/Development/Portfolio/Portfolio-Website (native)
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.076Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.076Z - Established a connection. Number of open connections: 2
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.077Z - Closed a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.078Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.096Z - Time taken for 'loadSpecifiedNxPlugins' 15.900792000000024ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.170Z - Time taken for 'Load Nx Plugin: /Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/adapter/angular-json' 75.56229200000001ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.213Z - Time taken for 'Load Nx Plugin: /Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/plugins/package-json' 118.63595799999996ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.213Z - Time taken for 'Load Nx Plugin: /Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 118.88ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.336Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.336Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.336Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.340Z - Time taken for 'loadDefaultNxPlugins' 177.70616700000005ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.366Z - Time taken for 'build-project-configs' 18.473999999999933ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.458Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - portfolioWebsite: 
+    - 
+    - .
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:455:15)
+      at mergeCreateNodesResults (/Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:341:9)
+      at /Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:285:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async getCachedSerializedProjectGraphPromise (/Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:52:24)
+      at async handleRequestProjectGraph (/Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+      at async handleResult (/Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/daemon/server/server.js:186:16)
+      at async handleMessage (/Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/daemon/server/server.js:109:9)
+      at async /Users/BauhofT/Development/Portfolio/Portfolio-Website/node_modules/nx/src/daemon/server/server.js:74:9
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.459Z - Time taken for 'total execution time for createProjectGraph()' 90.31491700000004ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.462Z - Done responding to the client null
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.462Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 379. Response time: 5.
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:18:01.465Z - Closed a connection. Number of open connections: 0
