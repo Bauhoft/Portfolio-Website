@@ -80,7 +80,7 @@
               "script": "deploy"
             },
             "metadata": {
-              "scriptContent": "ng build --configuration=production --base-href=/Portfolio-Website/ && npm run copy-404 && npx angular-cli-ghpages --dir=dist/portfolio-website/browser --no-silent",
+              "scriptContent": "ng build --configuration=production --base-href=/https://github.com/Bauhoft/Portfolio-Website/ && npm run copy-404 && npx angular-cli-ghpages --dir=dist/portfolio-website/browser --no-silent",
               "runCommand": "npm run deploy"
             },
             "configurations": {},
@@ -28929,5 +28929,5 @@
       "name": "MultipleProjectsWithSameNameError"
     }
   ],
-  "computedAt": 1744536457377
+  "computedAt": 1744536545145
 }

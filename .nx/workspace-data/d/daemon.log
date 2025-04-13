@@ -318,3 +318,47 @@
 [NX v20.7.1 Daemon Server] - 2025-04-13T09:27:37.357Z - Time taken for 'hash changed files from watcher' 0.35154200007673353ms
 [NX v20.7.1 Daemon Server] - 2025-04-13T09:27:37.367Z - Time taken for 'build-project-configs' 8.48333299998194ms
 [NX v20.7.1 Daemon Server] - 2025-04-13T09:27:37.380Z - Time taken for 'total execution time for createProjectGraph()' 10.275125000043772ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.419Z - [WATCHER]: package.json was modified
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.420Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.821Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.821Z - [REQUEST]: package.json
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.821Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.823Z - Time taken for 'hash changed files from watcher' 0.47974999994039536ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.834Z - Time taken for 'build-project-configs' 9.253958999994211ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:28:57.849Z - Time taken for 'total execution time for createProjectGraph()' 12.552999999956228ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:00.693Z - [WATCHER]: .angular/cache/19.2.6/portfolioWebsite/.tsbuildinfo was modified
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:00.693Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.324Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.325Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.494Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.494Z - [REQUEST]: .angular/cache/19.2.6/portfolioWebsite/.tsbuildinfo,.angular/cache/19.2.6/portfolioWebsite/angular-compiler.db-lock,.angular/cache/19.2.6/portfolioWebsite/angular-compiler.db
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.494Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.496Z - Time taken for 'hash changed files from watcher' 1.017708000028506ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.502Z - Time taken for 'build-project-configs' 5.6512920000823215ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:01.514Z - Time taken for 'total execution time for createProjectGraph()' 9.096499999985099ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.330Z - [WATCHER]: 43 file(s) created or restored, 2 file(s) modified, 4 file(s) deleted
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.331Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.382Z - [WATCHER]: dist/portfolio-website/browser/https:/github.com/Bauhoft/Portfolio-Website/home/index.html was created or restored
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.382Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.436Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.436Z - [REQUEST]: dist/portfolio-website/server/assets-chunks/styles-VK2QMLJW_css.mjs,dist/portfolio-website/browser/media/ClashGrotesk-Regular-UZ4EFXHS.ttf,dist/portfolio-website/browser/polyfills-FFHMD2TL.js,dist/portfolio-website/server/chunk-TNO4MGIL.mjs,dist/portfolio-website/browser/media/ClashGrotesk-Regular-EUIT4GJW.woff2,dist/portfolio-website/server/chunk-EJSJJTUO.mjs,dist/portfolio-website/server/assets-chunks/index_csr_html.mjs,dist/portfolio-website/server/polyfills.server.mjs,dist/portfolio-website/browser/media/ClashGrotesk-Variable-7LJSHPB7.woff,dist/portfolio-website/browser/media/ClashGrotesk-Medium-7ZIBO4PE.woff2,dist/portfolio-website/browser/index.csr.html,dist/portfolio-website/browser/media/ClashGrotesk-Semibold-MO2PYNSU.woff2,dist/portfolio-website/browser/media/ClashGrotesk-Regular-56M2IHRV.woff,dist/portfolio-website/server/chunk-X2SEQXRR.mjs,dist/portfolio-website/prerendered-routes.json,dist/portfolio-website/server/server.mjs,dist/portfolio-website/server/assets-chunks/https:_github_com_Bauhoft_Portfolio-Website_home_index_html.mjs,dist/portfolio-website/browser/media/ClashGrotesk-Variable-5PRJIJCJ.ttf,dist/portfolio-website/server/main.server.mjs,dist/portfolio-website/browser/media/ClashGrotesk-Extralight-FXX2Z7UZ.ttf,dist/portfolio-website/browser/media/ClashGrotesk-Light-UVVQXLIK.ttf,dist/portfolio-website/browser/media/ClashGrotesk-Semibold-EMBJ5RHC.woff,dist/portfolio-website/browser/media/ClashGrotesk-Bold-IAWZCRTE.woff2,dist/portfolio-website/browser/media/ClashGrotesk-Bold-VX6DFEZI.ttf,dist/portfolio-website/3rdpartylicenses.txt,dist/portfolio-website/browser/main-5UOVVJXN.js,dist/portfolio-website/browser/media/ClashGrotesk-Light-FWENWTJ7.woff2,dist/portfolio-website/browser/media/ClashGrotesk-Variable-FWQNWX26.woff2,dist/portfolio-website/browser/media/ClashGrotesk-Medium-PGYLRUZR.ttf,dist/portfolio-website/browser/media/ClashGrotesk-Light-HPB7WSH4.woff,dist/portfolio-website/server/chunk-GFUZYSQG.mjs,dist/portfolio-website/server/assets-chunks/index_server_html.mjs,dist/portfolio-website/browser/assets/.nojekyll,dist/portfolio-website/server/angular-app-manifest.mjs,dist/portfolio-website/browser/media/ClashGrotesk-Extralight-S56LBQSB.woff,dist/portfolio-website/server/angular-app-engine-manifest.mjs,dist/portfolio-website/browser/media/paperplane-HPLR52YK.png,dist/portfolio-website/browser/media/ClashGrotesk-Medium-YC5RSULR.woff,dist/portfolio-website/browser/styles-VK2QMLJW.css,dist/portfolio-website/server/index.server.html,dist/portfolio-website/browser/media/ClashGrotesk-Semibold-SERFTLI3.ttf,dist/portfolio-website/browser/media/ClashGrotesk-Bold-2UECYK6J.woff,dist/portfolio-website/browser/media/ClashGrotesk-Extralight-ZRZZ4S2K.woff2,dist/portfolio-website/browser/favicon.ico,dist/portfolio-website/browser/assets/text.json,dist/portfolio-website/browser/https:/github.com/Bauhoft/Portfolio-Website/home/index.html
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.436Z - [REQUEST]: dist/portfolio-website/browser/.nojekyll,dist/portfolio-website/browser/404.html,dist/portfolio-website/server/assets-chunks/home_index_html.mjs,dist/portfolio-website/browser/home/index.html
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.437Z - Time taken for 'hash changed files from watcher' 4.972125000087544ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.447Z - Time taken for 'build-project-configs' 8.680000000051223ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.459Z - Time taken for 'total execution time for createProjectGraph()' 9.947083999984898ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.520Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.520Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.620Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.621Z - [REQUEST]: dist/portfolio-website/browser/404.html,dist/portfolio-website/browser/.nojekyll
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.621Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.621Z - Time taken for 'hash changed files from watcher' 0.22333399998024106ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.628Z - Time taken for 'build-project-configs' 5.610374999931082ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:04.639Z - Time taken for 'total execution time for createProjectGraph()' 8.591999999945983ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.022Z - [WATCHER]: dist/portfolio-website/browser/.nojekyll was created or restored
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.022Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.124Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.124Z - [REQUEST]: dist/portfolio-website/browser/.nojekyll
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.124Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.125Z - Time taken for 'hash changed files from watcher' 0.453125ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.134Z - Time taken for 'build-project-configs' 7.3553749999264255ms
+[NX v20.7.1 Daemon Server] - 2025-04-13T09:29:05.148Z - Time taken for 'total execution time for createProjectGraph()' 11.800166000030003ms
